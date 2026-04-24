@@ -511,3 +511,110 @@ footer {
     color: #ef4444;
     font-size: 18px;
 }
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    nav {
+        padding: 16px 5%;
+    }
+
+    nav h1 {
+        font-size: 20px;
+    }
+
+    nav ul {
+        gap: 2px;
+    }
+
+    nav ul li a {
+        font-size: 13px;
+        padding: 6px 10px;
+    }
+
+    /* HERO */
+    .hero {
+        flex-direction: column;
+        padding: 100px 5% 60px;
+        min-height: 100vh;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .hero-left {
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .hero-left h1 {
+        font-size: 36px;
+    }
+
+    .hero-left h2 {
+        font-size: 18px;
+    }
+
+    .hero-left p {
+        font-size: 15px;
+        max-width: 100%;
+    }
+
+    .hero-links {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .hero-right {
+        order: -1;
+    }
+
+    .image-wrapper {
+        width: 220px;
+        height: 220px;
+    }
+
+    .image-wrapper::after {
+        width: 240px;
+        height: 240px;
+    }
+
+    /* SECTIONS */
+    section {
+        padding: 40px 5%;
+    }
+
+    /* SKILLS */
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* PROJECTS */
+    #project-list {
+        grid-template-columns: 1fr;
+    }
+
+    /* EDUCATION */
+    .education-list {
+        grid-template-columns: 1fr;
+    }
+
+    .education-card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    /* CERTIFICATES */
+    .certificate-list {
+        grid-template-columns: 1fr;
+    }
+
+    /* TOAST */
+    .toast {
+        top: 15px;
+        right: 15px;
+        left: 15px;
+        font-size: 14px;
+    }
+}
