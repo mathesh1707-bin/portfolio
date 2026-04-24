@@ -22,7 +22,7 @@ Users can send messages through the portfolio, which are delivered directly to m
 - `/backend` – Express server and email functionality
 
 ## 🌐 Live Demo
-(Add your deployed link here)
+https://portfolio-frontend-psi-black.vercel.app/
 
 ## 🎯 Purpose
 This project demonstrates my ability to design, develop, and integrate a complete full-stack application from scratch.
